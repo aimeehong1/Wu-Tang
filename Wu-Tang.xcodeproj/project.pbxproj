@@ -29,20 +29,23 @@
 		902A4C0D2CB48DA90058F288 /* Wu-TangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wu-TangUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		902A4C212CB48E2E0058F288 /* Exceptions for "Wu-Tang" folder in "Wu-Tang" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 902A4BF22CB48DA60058F288 /* Wu-Tang */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		902A4BF52CB48DA60058F288 /* Wu-Tang */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				902A4C212CB48E2E0058F288 /* Exceptions for "Wu-Tang" folder in "Wu-Tang" target */,
+			);
 			path = "Wu-Tang";
-			sourceTree = "<group>";
-		};
-		902A4C062CB48DA90058F288 /* Wu-TangTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Wu-TangTests";
-			sourceTree = "<group>";
-		};
-		902A4C102CB48DA90058F288 /* Wu-TangUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Wu-TangUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -76,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				902A4BF52CB48DA60058F288 /* Wu-Tang */,
-				902A4C062CB48DA90058F288 /* Wu-TangTests */,
-				902A4C102CB48DA90058F288 /* Wu-TangUITests */,
 				902A4BF42CB48DA60058F288 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +131,6 @@
 			dependencies = (
 				902A4C052CB48DA90058F288 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				902A4C062CB48DA90058F288 /* Wu-TangTests */,
-			);
 			name = "Wu-TangTests";
 			packageProductDependencies = (
 			);
@@ -152,9 +150,6 @@
 			);
 			dependencies = (
 				902A4C0F2CB48DA90058F288 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				902A4C102CB48DA90058F288 /* Wu-TangUITests */,
 			);
 			name = "Wu-TangUITests";
 			packageProductDependencies = (
@@ -399,9 +394,9 @@
 				DEVELOPMENT_TEAM = JM89T8TWA2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Wu-Tang/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -428,9 +423,9 @@
 				DEVELOPMENT_TEAM = JM89T8TWA2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Wu-Tang/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
